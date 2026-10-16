@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Large CUAD datasets
+backend/dataset/*.json
+backend/kaggle_dataset/*.zip
+cuad/*.json
+cuad/*.zip
+
+# Large dataset/demo image
+cuad/contract_review.png
